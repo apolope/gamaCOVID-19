@@ -1,0 +1,60 @@
+﻿body {
+    background-color: black;    
+    margin: 40px;
+    padding: 0;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;    
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+.cabecalho {
+    background-color: white;
+    color: rgb(156, 44, 44);
+    border-radius: 15px;
+    height: 20px;
+    padding: 20px; 
+    box-shadow: 5px 5px 2px rgb(109, 41, 41);
+}
+
+.itemMenu {
+    display: inline; 
+    padding: 10px; 
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+.itemMenu:hover {
+  background-color: rgb(100, 100, 100);
+  color: red;
+  border-radius: 15px;
+  text-transform: lowercase;
+}
+
+.geral {
+    background-color: white;
+    display: block;
+    position: fixed;
+    margin: 40px 40px 40px 40px;
+    top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 2px rgb(109, 41, 41);
+    overflow: hidden
+    
+}
+
+.paginaAberta {
+    background-color: white;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+}

@@ -1,0 +1,17 @@
+﻿h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(156, 44, 44);
+}
+.midia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 315px;
+    width: 560px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    color: black;
+}
