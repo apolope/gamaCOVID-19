@@ -1,0 +1,35 @@
+﻿fieldset {
+    border: 0;
+    margin-top: 15px;
+}
+
+legend {
+    padding-bottom: 10px;
+}
+
+label {
+    padding-top: 20px;
+	font-weight: bold;
+	margin-right: 10px;
+	width: 100%;
+}
+
+label:after {
+	content: ":";
+}
+
+form label {
+	display: block;
+}
+
+input, textarea {
+	border: #669 2px solid;
+	display: block;
+	width: 100%;
+}
+
+input[type=submit] {
+	border: #bbb 1px solid;
+    margin-bottom: 20px;
+    
+}
