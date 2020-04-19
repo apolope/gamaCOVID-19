@@ -1,1 +1,44 @@
-﻿
+﻿a {
+    text-decoration: none;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+.posicaoEsquerda {
+    display: inline-block;
+    width: 34%;
+}
+
+.posicaoCentro {
+    width: 2%;
+}
+
+.posicaoDireita {    
+    width: 64%;
+}
+
+.sobre {
+    display: flex;
+    margin: 40px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px rgb(109, 41, 41);
+}
+
+.informacoes {
+    text-align: center;
+    width: 100%;
+}
+
+.links {
+    display: block; 
+}
+
+.historico {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 80vh;
+}
